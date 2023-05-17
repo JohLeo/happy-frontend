@@ -16,7 +16,7 @@ export const NewThought = () => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: newThought })
       };
-      fetch('https://happy-thoughts-ux7hkzgmwa-uc.a.run.app/thoughts', Submit)
+      fetch('https://project-happy-thoughts-api-7b7pldp75q-lz.a.run.app/thoughts', Submit)
         .then((response) => response.json())
         .then(() => {
           setNewThought('');
