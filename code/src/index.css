@@ -60,9 +60,9 @@ textarea {
 }
 
 .submitBtn:hover {
-  background-color: #fc6be643;
+  background-color: #ebf702b8;
   box-shadow: 0 2px 2px #88886e6c;
-  color: #fd04d4;
+  color: #7d6f03;
 }
 
 .heart {
@@ -177,7 +177,7 @@ h2 {
 }
 
 .icon:hover {
-  color: #e2016a;
+  color: #f1fd00;
 }
 
 .byFoot {
