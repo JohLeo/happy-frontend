@@ -48,8 +48,17 @@ export const ThoughtFeed = () => {
           return (
             <div key={thought._id} className="card">
               <p className="postText">{thought.message}</p>
-              <button type="button" className={thought.heart === 0 ? 'noLikesBtn' : 'likesBtn'} onClick={() => HandleLike(thought._id)}>
-                <span role="img" className="heartEmo" aria-label="Like this post">🧡</span>
+              <button
+                type="button"
+                className={thought.heart === 0 ? 'noLikesBtn' : 'likesBtn'}
+                onClick={() => HandleLike(thought._id)}>
+
+                <span
+                  role="img"
+                  className="heartEmo"
+                  aria-label="Like this post">
+                    🩶
+                </span>
               </button>
               <span className="sumHearts">x {thought.heart}</span>
               <p className="date"> {formatDistance(new Date(thought.createdAt), Date.now(), { addSuffix: true })}</p>

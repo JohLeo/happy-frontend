@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #ffadad17;
+  background-color: #fff8ad17;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -22,23 +22,23 @@ code {
 
 .formCard {
   box-sizing: border-box;
-  background-color: #ffadad38;
+  background-color: #f4ffad38;
   margin: 20px 0;
   padding: 15px;
-  border: 1px solid #e2016a;
-  box-shadow: 4px 4px #e2016a;
+  border: 1px solid #88886e6c;
+  box-shadow: 4px 4px #88886e6c;
 }
 
 .headThought {
   font-family: "Courier New";
   font-weight: bold;
   font-size: 15px;
-  color:#690133;
+  color:#695f01;
 }
 
 textarea {
     border: none;
-    color: #000;
+    color: #191a0f;
     padding: 8px;
     margin: 15px 0 10px;
     width: 100%;
@@ -53,17 +53,16 @@ textarea {
   font-weight: bold;
   border: none;
   border-radius: 50px;
-  color: #380118;
-  background-color: #ffadad;
+  color: #383201;
+  background-color: #f2fe15b8;
   padding: 8px 12px;
   cursor: pointer;
 }
 
 .submitBtn:hover {
-  background-color: #e2016a80;
-  border: #f872c0;
-  box-shadow: 0 0 5px #f872c0;
-  color: #ffca68;
+  background-color: #fc6be643;
+  box-shadow: 0 2px 2px #88886e6c;
+  color: #fd04d4;
 }
 
 .heart {
@@ -72,19 +71,19 @@ textarea {
 
 .card {
   box-sizing: border-box;
-  background-color: #fff;
-  border: 1px solid #fc7acc;
+  background-color: #f4ffad38;
+  border: 1px solid #88886e6c;
   border-radius: 10px;  
   margin: 18px 0;
   padding: 10px 20px;
-  box-shadow: 4.5px 5px #e2016a;
+  box-shadow: 4.5px 5px #88886e6c;
   overflow-wrap: break-word;
 }
 
 .postText {
   font-family: "Courier New";
   font-size: 13px;
-  color: #691501;
+  color: #695901;
   margin: 0;
   padding: 18px 0;
   min-height: 20px;
@@ -107,12 +106,12 @@ textarea {
   height: 38px;
   width: 38px;
   cursor: pointer;
-  background-color: #e2016a51;
+  background-color: #e2e20151;
 }
 
 .likesBtn,
 .noLikesBtn {
-  background-color: #ffadad47;
+  background-color: #f2fe15b8;
   margin-right: 8px;
   border: none;
   border-radius: 50%;
@@ -128,7 +127,7 @@ textarea {
 .sumHearts,
 .counter {
   font-size: 10px;
-  color: #fc7acc;
+  color: #767c03;
   text-align: right;
   margin: 0;
 }
@@ -142,7 +141,7 @@ textarea {
     float: right;
     position: relative;
     font-size: 10px;
-    color: #fc7acc;
+    color: #767c03;
     text-align: right;
 }
 
@@ -150,16 +149,16 @@ textarea {
   box-sizing: border-box;
   background-color: #fff;
   height: 100px;
-  border: 1px solid #fc7acc;
+  border: 1px solid #f2ff03;
   border-radius: 10px;  
   margin: 20px 0;
-  box-shadow: 4.5px 5px #e2016a;
+  box-shadow: 4.5px 5px #dde803;
 }
 
 h2 {
   padding: 35px;
   font-family: "Courier New";
-  color: #e2016a;
+  color: #e2d701;
   font-size: 20px;
   font-weight: lighter;
 }
@@ -172,7 +171,7 @@ h2 {
 }
 
 .icon {
-  color: #ffadad88;
+  color: #88886e6c;
   font-size: 23px;
   padding: 0 18px 0 18px;
 }
@@ -184,7 +183,7 @@ h2 {
 .byFoot {
   font-family: "Courier New";
   font-size: 12px;
-  color:#b64d7e;
+  color:#88886eda;
   margin: 10px 0 14px 0;
 }
 

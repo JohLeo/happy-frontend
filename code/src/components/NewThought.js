@@ -42,9 +42,9 @@ export const NewThought = () => {
         <p className={newThought.length > 140 ? 'counter' : 'counter'}>{newThought.length} / 140</p>
         <button className="submitBtn" type="submit">
           <span>
-            <span className="heart" role="img" aria-label="heart"> 🧡 </span>
+            <span className="heart" role="img" aria-label="heart"> 🩶 </span>
             Send happy thought
-            <span className="heart" role="img" aria-label="heart"> 🧡 </span>
+            <span className="heart" role="img" aria-label="heart"> 🩶 </span>
           </span>
         </button>
       </form>
