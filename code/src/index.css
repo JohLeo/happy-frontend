@@ -33,18 +33,18 @@ code {
   font-family: "Courier New";
   font-weight: bold;
   font-size: 15px;
-  color:#695f01;
+  color: #695f01;
 }
 
 textarea {
-    border: none;
-    color: #191a0f;
-    padding: 8px;
-    margin: 15px 0 10px;
-    width: 100%;
-    box-sizing: border-box;
-    resize: none;
-    font-family: "Courier New";
+  border: none;
+  color: #191a0f;
+  padding: 8px;
+  margin: 15px 0 10px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  font-family: "Courier New";
 }
 
 .submitBtn {
@@ -73,7 +73,7 @@ textarea {
   box-sizing: border-box;
   background-color: #f4ffad38;
   border: 1px solid #88886e6c;
-  border-radius: 10px;  
+  border-radius: 10px;
   margin: 18px 0;
   padding: 10px 20px;
   box-shadow: 4.5px 5px #88886e6c;
@@ -138,21 +138,22 @@ textarea {
 }
 
 .date {
-    float: right;
-    position: relative;
-    font-size: 10px;
-    color: #767c03;
-    text-align: right;
+  float: right;
+  position: relative;
+  font-size: 10px;
+  color: #767c03;
+  text-align: right;
 }
 
 .loading {
   box-sizing: border-box;
-  background-color: #fff;
   height: 100px;
-  border: 1px solid #f2ff03;
-  border-radius: 10px;  
   margin: 20px 0;
-  box-shadow: 4.5px 5px #dde803;
+  color: #695f01;
+  background-color: #f4ffad38;
+  border: 1px solid #88886e6c;
+  border-radius: 10px;
+  box-shadow: 4.5px 5px #88886e6c;
 }
 
 h2 {
@@ -183,7 +184,7 @@ h2 {
 .byFoot {
   font-family: "Courier New";
   font-size: 12px;
-  color:#88886eda;
+  color: #88886eda;
   margin: 10px 0 14px 0;
 }
 
@@ -203,5 +204,5 @@ h2 {
     width: 316px;
     padding: 0 2px;
   }
-  
+
 }
