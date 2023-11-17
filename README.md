@@ -1,7 +1,33 @@
-## Project Happy Thoughts Frontend - https://happy-mongo-api-jl.netlify.app
+### Project Happy Thoughts Frontend - https://happy-mongo-api-jl.netlify.app
 
 ## ✓ The brief
-The goal for this project was to build an API similar to an API used in a previous frontend project. We needed to structure it so that the URL-fetch could be replaced with the new one and get the app working with our frontend from before. The "app" is named Happy Thoughts and is created so that you can read, post and like new happy thoughts.
+The goal was to build a database, an API and a frontend with react for a Twitter like app, but with more positivity given the name from Technigo - Happy Thougts.
+
+The app has three main functionalities - adding thoughts, listing thoughts, and toggling a 'like' status.
+
+The project was a great opportunity to work on my backend and React skills and bring together the different parts of React and working with fetching and posting to an API. It also included building the backend with Schemas and setting up the API using MongoDB, MongoDB Atlas, Google Cloud and POSTMAN.
+
+Must-haves:
+✅ The API should implement the given routes exactly.
+
+✅ The GET /thoughts endpoint should only return 20 results, ordered by createdAt in descending order.
+
+✅ The API should validate user input and return appropriate errors if the input is invalid.
+
+✅ In the POST /thoughts endpoint to create a new thought, if the input was invalid and the API is returning errors, it should set the response status to 400 (bad request).
+
+✅ The endpoint to add hearts to a thought should return an appropriate error if the thought was not found.
+
+✅ Follow a given design as close as possible.
+
+✅ List the most recent thoughts at the top and older thoughts at the bottom (sorted).
+
+✅ Show the content of the message and how many likes the thoughts have received.
+
+✅ Have a form to post new thoughts.
+
+✅ Implement a heart button to send likes on a thought.
+
 
 ## 🏔️ The problem
 
